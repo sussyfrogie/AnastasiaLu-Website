@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anastasia Leonita</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+          <a href="../index.html" class="aboutMe">ABOUT ME</a>
+          <a href="/rattrapage/CV.html" class="CV">CV</a>
+          <a href="/rattrapage/project.html" class="project">PROJECT</a>
+          <a href="" class="contact">CONTACT</a>
+          <div class="close-btn" id="close-btn">X</div>
+        </div>
+      </div>
+      
+
+
+
+<header class="header">
+        <nav class="header__left">
+           <div style="display:flex; align-items: center; gap:10px">
+            <div class="blueRectangle"></div>
+            <p class="name">Anastasia Leonita</p>
+            <P class="job">/ PRODUCT DESIGNER</P>
+            </div>
+        </nav>
+        <nav class="header__right active">
+            <div  class="header__right__container  desktop">
+            <a href="../index.html" class="aboutMe"><p>ABOUT ME</p></a>
+            <a href="/rattrapage/CV.html" class="CV"><p>CV</p></a>
+            <a href="/rattrapage/project.html" class="project"><p>PROJECT</p></a>
+            <a href="" class="contact"><p>CONTACT</p></a>
+            </div>
+
+            <div class="mobile-menu mobile">
+                <div class="menu-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            
+        </nav>
+</header>
+
+<section class="article">
+    <div style="display:flex; align-items: center; flex-direction: column; gap:0px"> 
+
+    <div class="title">
+        <div class="blueRectangle"></div>
+        <p class="nameTwo">Contact</p>
+    </div>
+
+    <div class="whiteBlock">
+        <div class="formUp">
+            <div class="form-group">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname*</label>
+                <input type="text" id="surname" name="surname">
+            </div>
+        </div>
+
+        <div class="formBottom">
+            <div class="form-group">
+                <label for="email">E-mail*</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="object">Object</label>
+                <input type="text" id="object" name="object">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <input type="text1" id="message" name="message">
+            </div>
+
+        </div>
+
+        <button class="darkButton">Send</button>
+
+
+
+    </div>
+
+    </div>
+</section>
+
+
+
+
+
+<footer class="footerBawah">
+    <div class="leftFooter">
+        <a href="" class="mentionLegal"><p>Mention legal</p></a>
+        <a href="" class="cookies"><p>Cookies</p></a> 
+    <a href="" class="userConditions"><p>User Condition</p></a> 
+    <a href="" class="credit"><p>©2024 by Anastasia Leonita</p></a> 
+
+    </div>
+
+    <div class="rightFooter">
+        <div class="tel">
+            <p class="pTel">Tel</p>
+            <p class="pTel1">01 23 45 67 89</p>
+
+        </div>
+
+        <div class="email">
+            <p class="pEmail">Email</p>
+            <p class="pEmail1">anastasia.leonita@edu.gobelins.fr</p>
+
+        </div>
+
+        <div class="mediaSocial">
+            <p class="pMedia">Media Social</p>
+            <div class="socialBox1">
+                <a href="https://www.linkedin.com/in/anastasia-leonita-004958213/" class="linkedinButton"><img src="../img/linkedin.svg" alt="" class="linkedin"></a>
+                <a href="https://www.instagram.com/de0dette/" class="igButton"><img src="../img/ig.svg" alt="" class="ig"></a>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+<script>
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.getElementById('modal').style.display = 'block';
+});
+
+document.getElementById('close-btn').addEventListener('click', function() {
+  document.getElementById('modal').style.display = 'none';
+});
+
+</script>
+
+</body>
+
+</html>
